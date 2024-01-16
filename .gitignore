@@ -1,3 +1,7 @@
+#Junk
+.vscode/
+.idea/
+
 # Logs
 logs
 *.log
