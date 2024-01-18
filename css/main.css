@@ -4,6 +4,48 @@
   background-color: bisque;
 }
 
+/* Header styles */
+.header {
+  padding: 9px 29px;
+  background-color: #fcf8f3;
+}
+
+.navigation {
+  display: flex;
+  align-items: center;
+}
+
+.main-logo {
+  width: 100px;
+  height: 50px;
+  margin-right: 47px;
+}
+
+.site-nav-list {
+  display: flex;
+  align-items: center;
+}
+
+.site-nav-item {
+  &:not(:last-child) {
+    margin-right: 57px;
+  }
+  &:last-child {
+    margin-right: 820px;
+  }
+}
+
+.shopping-nav-list {
+  display: flex;
+  align-items: center;
+}
+
+.shopping-nav-item {
+  &:not(:last-child) {
+    margin-right: 29px;
+  }
+}
+
 /* Footer styles */
 .footer {
   padding: 65px 29px 8px 29px;
