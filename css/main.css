@@ -46,6 +46,13 @@
   }
 }
 
+/* Main styles */
+.hero {
+  height: 500px;
+  background: url(../images/hero-section-cover.jpg),
+    lightgray 50% / cover no-repeat;
+}
+
 /* Footer styles */
 .footer {
   padding: 65px 29px 8px 29px;
